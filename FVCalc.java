@@ -9,8 +9,8 @@ public class FVCalc {
 		Double fractionRate = precentageRate / 100;
 		double futureValue = currentValue * (Math.pow(1 + fractionRate, numberOfYears));
 
-		System.out.println("After " + numberOfYears + " years, " + currentValue +
-						   "$ saved at " + precentageRate + "% will yield " +
-						   (int) futureValue + "$");
+		System.out.println("After " + numberOfYears + " years, a $" + currentValue +
+						   " saved at " + precentageRate + "% will yield $" +
+						   (int) futureValue);
 	}
 }

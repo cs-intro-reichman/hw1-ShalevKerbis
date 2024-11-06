@@ -5,6 +5,7 @@ public class FVCalc {
 		Double precentageRate = Double.parseDouble(args[1]);
 		int numberOfYears = Integer.parseInt(args[2]);
 
+		//convert the precentage rate to a fraction in order it will fit the formula
 		Double fractionRate = precentageRate / 100;
 		double futureValue = currentValue * (Math.pow(1 + fractionRate, numberOfYears));
 

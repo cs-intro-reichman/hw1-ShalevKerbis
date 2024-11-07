@@ -13,7 +13,6 @@ public class TimeFormat {
 			choosingFormat = "PM";
 		}
 
-
 		if (minutes < 10){
 			System.out.print(hours + ":" + "0" + minutes + " ");
 		} else {

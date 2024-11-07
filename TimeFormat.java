@@ -8,6 +8,8 @@ public class TimeFormat {
 		String choosingFormat;
 		if (hours < 12){
 			choosingFormat = "AM";
+		} else if (hours == 12){
+			choosingFormat = "PM";
 		} else {
 			hours = hours - 12;
 			choosingFormat = "PM";

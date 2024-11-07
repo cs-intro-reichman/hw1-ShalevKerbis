@@ -6,7 +6,7 @@ public class TimeFormat {
 
 		
 		String choosingFormat;
-		if (hours <= 12){
+		if (hours < 12){
 			choosingFormat = "AM";
 		} else {
 			hours = hours - 12;
